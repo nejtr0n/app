@@ -1,4 +1,3 @@
 <?php
-echo $_SERVER["FRONT"].'.'.gethostname();
-var_dump($_SERVER);
+echo $_SERVER["FRONT"].'.'.gethostname().'.'.$_SERVER["PHY"].'.'.$_SERVER["DC"];
 phpinfo();
