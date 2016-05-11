@@ -1,2 +1,2 @@
 <?php
-echo _SERVER["FRONT"];
+echo _SERVER["_FRONT"];
